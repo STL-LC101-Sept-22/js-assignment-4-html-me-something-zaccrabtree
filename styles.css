@@ -12,12 +12,51 @@
     
 .div1 { 
     grid-area: 1 / 1 / 2 / 4;
-    margin-left: 10%;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 .div2 { 
-    grid-area: 2 / 1 / 6 / 3; 
+    grid-area: 2 / 1 / 6 / 3;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 .div3 { 
-    grid-area: 2 / 3 / 6 / 4; 
+    grid-area: 2 / 3 / 6 / 4;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 } 
 
+body {
+    margin: 8px;
+    display: block;
+}
+footer {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+p {
+    margin: 3%;
+    padding: 1%;
+}
+#cool-list {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+#mainHeading {
+    color: red;
+}
+.funParagraph {
+    color: green;
+}
+
+header {
+    padding: 0;
+}
