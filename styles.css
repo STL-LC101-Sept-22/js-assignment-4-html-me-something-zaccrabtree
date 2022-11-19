@@ -8,27 +8,37 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     font:bold;
+    margin: auto;
     }
     
 .div1 { 
     grid-area: 1 / 1 / 2 / 4;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    margin: auto;
+    padding: 0
 }
 .div2 { 
     grid-area: 2 / 1 / 6 / 3;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    margin: auto;
+    padding: 1px;
 }
 .div3 { 
     grid-area: 2 / 3 / 6 / 4;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    margin: auto;
+    padding: 1px;
 } 
 
 body {
     margin: 8px;
     display: block;
+    padding: 0;
 }
 footer {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    margin: auto;
+    padding: 0;
 }
 p {
     margin: 3%;
