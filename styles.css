@@ -75,3 +75,7 @@ header {
     height: 5%;
     width: 100%;
 }
+.small-image {
+    height: auto;
+    width: auto;
+}
